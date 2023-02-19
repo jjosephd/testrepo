@@ -1,0 +1,276 @@
+body{
+    background-image: url(https://www.vobss.com/wp-content/uploads/2021/12/cocomelon-wallpaper-vobss-6.jpg);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-attachment: fixed;
+    
+    
+}
+ul{
+    
+    list-style: none;
+    padding: 8px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+    top: 0;
+    
+
+}
+li{
+    float: left;
+    border-right: 1px solid #bbb
+    
+}
+
+
+a:hover{
+    background-color: rgb(131, 51, 51);
+}
+a {
+    background-color: #0A66C2;
+    padding: 8px;
+    color: #dddddd;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+.phrase1{
+    background-image: inherit;
+    background-attachment: fixed;
+    text-align: center;
+    text-transform: lowercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(198, 198, 9);
+}
+.charCont{
+    background-color: rgba(91, 193, 244, 0.5) ;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.jj-img{
+    height: 10rem;
+    display: inline-block;
+}
+.jj-img:hover{
+    height: 12rem;
+    border-radius: 2px;
+    border-color: rgb(246, 246, 15);
+    border-style: solid;
+    transition: all 0.8s;
+    
+}
+.username{
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 0%;
+
+}
+
+.refresh-btn{
+    margin-left: 30%;
+    margin-right: auto;
+    max-width: 500px;
+    width: 40%;
+    height: 2rem;
+    border-radius: 8%;
+
+    
+
+}
+
+
+/* CSS */
+.refresh-btn {
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.refresh-btn:hover,
+.refresh-btn:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.refresh-btn:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.refresh-btn:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+
+hr{
+    margin-top: 0px;
+}
+
+.quote{
+    border-style: solid;
+    background-color: azure;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fa-heart{
+    color: rgb(239, 55, 18);
+}
+.fa-link{
+    margin-left: 50%;
+    margin-right: 2%;
+    color: rgb(14, 14, 217);
+    
+    
+}
+.fa-link:hover{
+
+    color: white;
+}
+.fa-heart:hover{
+        color: white;
+      
+}
+.charCont .jj-cont{
+    background-color: rgba(180, 217, 248, 0.8);
+    border-radius: 2px;
+    border-color: rgb(243, 100, 28);
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+
+}
+.charCont .cody-cont{
+    background-color: rgba(231, 167, 49 ,0.8);
+    border-radius: 2px;
+    border-color: rgb(243, 100, 28);
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    
+
+}
+.charCont .yoyo-cont{
+    background-color: rgba(130, 83, 248 ,0.8);
+    border-radius: 2px;
+    border-color: rgb(243, 100, 28);
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.charCont .cece-cont{
+    background-color: rgba(250, 245, 103 ,0.8);
+    border-radius: 2px;
+    border-color: rgb(243, 100, 28);
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.charCont .tomtom-cont{
+    background-color: rgba(41, 110, 237 ,0.8);
+    border-radius: 2px;
+    border-color: rgb(243, 100, 28);
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.charCont .nina-cont{
+    background-color: rgba(239, 143, 124 ,0.8);
+    border-radius: 2px;
+    border-color: rgb(243, 100, 28);
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.charCont .nico-cont{
+    background-color: rgb(47, 164, 65 ,0.8);
+    border-radius: 2px;
+    border-color: rgb(243, 100, 28);
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.charCont .bear-cont{
+    background-color: rgba(96, 175, 189 ,0.8);
+    border-radius: 2px;
+    border-color: rgb(243, 100, 28);
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.charCont .wolf-cont{
+    background-color: rgba(132, 47, 80 ,0.8);
+    border-radius: 2px;
+    border-color: rgb(243, 100, 28);
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+
+.cont2{
+    background-color: rgba(152, 80, 215 ,0.8);
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    border-radius: 2px;
+    border-color: rgb(243, 100, 28);
+    border-style: solid;
+}

@@ -1,0 +1,129 @@
+<!--cocogram FrontEnd Website
+---Designed by Jordan Daniel----
+This is a simple frontend project created to reuse skills learned thus far.
+This project features Vanilla HTML and CSS. In theory, the application would
+allow a user to refresh their feed to retrieve up-to-date cocomelon news.
+This application was designed completely from scratch - no use of another template,
+minimal tutorial use (only for reference points) and I tried to mainly stick to using
+Mozilla Firefox CSS tools and Stack Overflow when looking for help.
+
+
+--Features to add--
+-Login with email/password
+**Login success/Authenticating
+-Light profile with minimal details
+-Link other media accounts (Netflix/YouTube)
+-News, Contact, Live Shows page
+**Live shows tab should have sliding images of shows
+-Like/share count
+
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cocogram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <ul>
+        <li><a href="HTML_CSS_Prac/colorSelector.html">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Live Shows!</a></li>
+      </ul>
+    <h1 class="phrase1"><img alt= "cocogram" src="https://cdn.shopify.com/s/files/1/0507/7093/5966/files/CocomelonLogo_01_395cbb0a-d97f-46be-b364-0bb895a68a61_360x.png?v=1614336363">
+    </h1>
+    <div class="charCont">
+        <button type="submit" class="refresh-btn" onclick="refreshBtn()">Refresh</button>
+        <div class="jj-cont" id="prof">
+            <img class="jj-img"src="https://cocomelonlive.com/img/characters/tile/jj.jpg" alt=""><p class="username">Melon</p>
+            <hr>
+            <p class="quote">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, 
+                obcaecati ipsum neque voluptate minus iste in. 
+                Voluptates odio consequuntur excepturi harum nam dolorum libero, 
+                aliquid omnis quisquam incidunt enim."</p>
+                <i class="fas fa-link"></i><i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="cody-cont" id="prof">
+            <img class="jj-img"src="https://cocomelonlive.com/img/characters/tile/cody.jpg" alt=""><p class="username">Cody</p>
+            <hr>
+            <p class="quote">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, 
+                obcaecati ipsum neque voluptate minus iste in. 
+                Voluptates odio consequuntur excepturi harum nam dolorum libero, 
+                aliquid omnis quisquam incidunt enim."</p>
+                <i class="fas fa-link"></i><i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="yoyo-cont" id="prof">
+            <img class="jj-img"src="https://cocomelonlive.com/img/characters/tile/yoyo.jpg" alt=""><p class="username">YoYo</p>
+            <hr>
+            <p class="quote">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, 
+                obcaecati ipsum neque voluptate minus iste in. 
+                Voluptates odio consequuntur excepturi harum nam dolorum libero, 
+                aliquid omnis quisquam incidunt enim."</p>
+                <i class="fas fa-link"></i><i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="cece-cont" id="prof">
+            <img class="jj-img"src="https://cocomelonlive.com/img/characters/tile/cece.jpg" alt=""><p class="username">CeeCee</p>
+            <hr>
+            <p class="quote">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, 
+                obcaecati ipsum neque voluptate minus iste in. 
+                Voluptates odio consequuntur excepturi harum nam dolorum libero, 
+                aliquid omnis quisquam incidunt enim."</p>
+                <i class="fas fa-link"></i><i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="tomtom-cont" id="prof">
+            <img class="jj-img"src="https://cocomelonlive.com/img/characters/tile/tomtom.jpg" alt=""><p class="username">TomTom</p>
+            <hr>
+            <p class="quote">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, 
+                obcaecati ipsum neque voluptate minus iste in. 
+                Voluptates odio consequuntur excepturi harum nam dolorum libero, 
+                aliquid omnis quisquam incidunt enim."</p>
+                <i class="fas fa-link"></i><i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="nina-cont" id="prof">
+            <img class="jj-img"src="https://cocomelonlive.com/img/characters/tile/nina.jpg" alt=""><p class="username">Nina</p>
+            <hr>
+            <p class="quote">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, 
+                obcaecati ipsum neque voluptate minus iste in. 
+                Voluptates odio consequuntur excepturi harum nam dolorum libero, 
+                aliquid omnis quisquam incidunt enim."</p>
+                <i class="fas fa-link"></i><i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="nico-cont" id="prof">
+            <img class="jj-img"src="https://cocomelonlive.com/img/characters/tile/nico.jpg" alt=""><p class="username">Nico</p>
+            <hr>
+            <p class="quote">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, 
+                obcaecati ipsum neque voluptate minus iste in. 
+                Voluptates odio consequuntur excepturi harum nam dolorum libero, 
+                aliquid omnis quisquam incidunt enim."</p>
+                <i class="fas fa-link"></i><i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="bear-cont" id="prof">
+            <img class="jj-img"src="https://cocomelonlive.com/img/characters/tile/boba.jpg" alt=""><p class="username">Boba</p>
+            <hr>
+            <p class="quote">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, 
+                obcaecati ipsum neque voluptate minus iste in. 
+                Voluptates odio consequuntur excepturi harum nam dolorum libero, 
+                aliquid omnis quisquam incidunt enim."</p>
+                <i class="fas fa-link"></i><i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="wolf-cont" id="prof">
+            <img class="jj-img"src="https://cocomelonlive.com/img/characters/tile/wally.jpg" alt=""><p class="username">Wally</p>
+            <hr>
+            <p class="quote">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, 
+                obcaecati ipsum neque voluptate minus iste in. 
+                Voluptates odio consequuntur excepturi harum nam dolorum libero, 
+                aliquid omnis quisquam incidunt enim."</p>
+                <i class="fas fa-link"></i><i class="fa-solid fa-heart"></i>
+        </div>
+    </div>
+</body>
+</html>
